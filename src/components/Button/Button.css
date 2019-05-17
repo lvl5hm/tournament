@@ -1,0 +1,22 @@
+.button {
+  background: gold;
+  border: 0;
+  outline: 0;
+  border-radius: 3px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.disabled {
+  background: gray;
+  color: white;
+}
+
+.button:not(.disabled):not(.selected):hover {
+  background: goldenrod;
+}
+
+.selected {
+  background: greenyellow;
+  color: black;
+}

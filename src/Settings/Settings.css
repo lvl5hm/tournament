@@ -1,0 +1,133 @@
+.settings {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.settings > .section {
+  margin-bottom: 20px;
+}
+
+.saveBlock {
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.clearButton, .removeTeamButton, .removeMemberButton, .removeCategoryButton {
+  background-color: orangered !important;
+  color: white;
+}
+
+.clearButton:hover, .removeTeamButton, .removeMemberButton, .removeCategoryButton {
+  background-color: red !important;
+}
+
+.saveBlock .button {
+  height: 40px;
+  width: 180px;
+  margin-right: 10px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.inputWithHint {
+  width: 400px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.inputWithHint > input {
+  margin-top: 5px;
+  width: 250px;
+}
+
+.teamsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.heading {
+  margin-top: 5px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 250px;
+  padding: 10px;  
+}
+
+.member {
+  
+}
+
+.addTeamWrapper {
+  padding: 10px;
+  width: 250px;  
+}
+
+.addTeamButton {
+  min-height: 150px;
+  height: 100%;
+  width: 100%;
+}
+
+.addMemberButton {
+  height: 40px;
+  width: 90%;
+}
+
+.removeTeamButton {
+  width: 57px;
+  margin-left: 5px;
+}
+
+.removeMemberButton {
+  margin-left: 5px;  
+}
+
+.member {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.member input {
+  margin-bottom: 0;
+}
+
+.teamBottom {
+  display: flex;
+}
+
+.addCategoryButton {
+  width: 100%;
+  height: 100px;
+
+  margin: 20px 0 50px;
+  background-color: greenyellow !important;
+}
+
+.addCategoryButton:hover {
+  background-color: green !important;  
+}
+
+.categoryWrapper {
+  margin-top: 30px;
+}
+
+.categoryTop {
+  display: flex;
+}
+
+.categoryTop input {
+  margin-bottom: 0;
+}
+
+.removeCategoryButton {
+  margin-left: 10px;
+  width: 70px;
+}

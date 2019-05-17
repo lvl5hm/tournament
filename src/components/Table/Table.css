@@ -1,0 +1,57 @@
+
+
+.table {
+  margin-bottom: 20px;
+}
+
+.cell {
+  border: 1px solid black;
+}
+
+thead {
+  text-align: center;
+  background: palegoldenrod;
+  cursor: pointer;
+}
+
+.cell > .cellValue {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  padding-left: 2px;
+}
+
+.sort {
+  background: lawngreen;
+}
+
+tr:nth-child(even) {
+  background: blanchedalmond;
+}
+
+.cell.input {
+  border: 2px solid goldenrod;
+}
+
+input.cellValue {
+  background: transparent;
+}
+
+.eventWrapper {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categoryTitle {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.sprintPartTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
